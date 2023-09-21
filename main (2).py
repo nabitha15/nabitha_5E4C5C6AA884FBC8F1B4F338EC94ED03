@@ -1,7 +1,18 @@
-num = float(input("Enter a number: "))
-if num > 0:
-   print("Positive number")
-elif num == 0:
-   print("Zero")
-else:
-   print("Negative number")
+
+
+
+class player:
+   def play(self):
+     print("The player is playing cirket.")
+class Batsman(player):
+  def play(self):
+    print("The bastsman is batting.")
+class Bowler(player):
+  def play(self):
+    print("The bowler is bowling.")
+ 
+batsman=Batsman()
+bowler=Bowler()
+batsman.play()
+bowler.play()
+    
